@@ -17,9 +17,10 @@ const NavBar = () => {
             </p>
           </div>
         </div>
+        <a href="https://www.google.com" target='_blank'>
         <div className="profile w-8 h-8 rounded-full overflow-hidden">
             <i className="ri-global-line  text-2xl text-blue-400"></i>
-          </div>
+          </div></a>
     </div>
     </>
   )
