@@ -18,11 +18,7 @@ const NavBar = () => {
           </div>
         </div>
         <div className="profile w-8 h-8 rounded-full overflow-hidden">
-            <img
-              src="https://imgs.search.brave.com/j-zNxrFfdHMGVp-256AMGU8Vmzo1lAQZPPoJ_aEqSLE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNjAv/MzYyLzYzNC9zbWFs/bC9jYXJ0b29uLWZl/bWFsZS10ZWFjaGVy/LWF2YXRhci13aXRo/LWdsYXNzZXMtaXNv/bGF0ZWQtaW4tYS1i/cmlnaHQtZnJpZW5k/bHktc2V0dGluZy0z/ZC1jYXJ0b29uLWZl/bWFsZS10ZWFjaGVy/LWVkdWNhdG9yLWF2/YXRhci1pc29sYXRl/ZC1vbi10cmFuc3Bh/cmVudC1iYWNrZ3Jv/dW5kLWZyZWUtcG5n/LnBuZw"
-              alt=""
-              className="w-full h-full object-cover object-center"
-            />
+            <i className="ri-global-line  text-2xl text-blue-400"></i>
           </div>
     </div>
     </>
