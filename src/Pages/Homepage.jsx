@@ -4,7 +4,7 @@ import ShortcutsData from "../ShortcutsData.js";
 const Homepage = () => {
   return (
     <>
-     <div className="flex-1 min-h-full  pt-7 max-sm:pt-3 px-10 max-sm:px-2 ml-65 max-lg:ml-20 max-sm:ml-15">
+     <div className="min-h-screen  pt-7 max-sm:pt-3 px-10 max-sm:px-2 ml-65 max-lg:ml-20 max-sm:ml-15">
         <div className="header-text text-zinc-200 ">
           <h1 className="text-3xl font-semibold">Good morning,👋</h1>
           <p className="text-gray-400">Access your favorite websites quickly</p>
