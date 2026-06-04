@@ -47,7 +47,8 @@ const SideBar = () => {
   return (
     <>
       <div className="sidebar fixed w-65 max-lg:w-fit h-screen bg-[#0C0F21] overflow-hidden p-5 max-sm:p-1 border-r-2 border-r-zinc-600/40">
-
+           <div className="h-full overflow-auto ">
+            
         {/* Tabs */}
         <div className="tabs mt-18 flex flex-col transition-all border-b-2 border-b-gray-300/10">
           {tabs.map((tab) => {
@@ -93,6 +94,7 @@ const SideBar = () => {
             );
           })}
         </div>
+           </div>
       </div>
     </>
   );
